@@ -55,7 +55,7 @@ const Header = () => {
                       </div>
                       <div className="bd-header-meta-text">
                         <p>
-                          <a href="tel:9072003462">+1 902-539-8884</a>
+                          <a href="tel:1 902-539-8884">+1 902-539-8884</a>
                         </p>
                       </div>
                     </div>

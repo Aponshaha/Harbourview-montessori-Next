@@ -15,7 +15,7 @@ const blog_data = [
   {
     id: 1,
     img: img_1,
-    title: 'Harbourview Montessori was born from a dream.',
+    title: 'Reminder: Parent-Teacher Conferences this Friday from 3-6 PM. Please schedule appointments with your childs teacher.',
     date: '22 Jan 2023',
     user: 'Alex',
     comments: 0,
@@ -26,7 +26,7 @@ const blog_data = [
   {
     id: 2,
     img: img_2,
-    title: 'Why Toys for Preschoolers are Important - a small ready setup',
+    title: 'Emergency Drill Tomorrow: We will be conducting a fire drill at 10 AM. Students and staff must follow evacuation procedures.',
     date: '23 Jan 2023',
     user: 'Peter',
     comments: 5,
@@ -37,7 +37,7 @@ const blog_data = [
   {
     id: 3,
     img: img_3,
-    title: 'Which Toys are Best for Preschool Kids in USA',
+    title: 'Sports Day on Saturday: Join us for a day filled with fun activities and cheering for our school teams. Dont miss out!',
     date: '24 Jan 2023',
     user: 'Steve',
     comments: 8,
@@ -49,7 +49,7 @@ const blog_data = [
   {
     id: 4,
     img: img_4,
-    title: 'How to be Learn Map Glove Easy Way for Garten',
+    title: 'Midterm Exams Next Week: Study guides are available on the school website. Ensure you are well-prepared for your exams',
     date: '25 Jan 2023',
     user: 'Sayem',
     comments: 7,
