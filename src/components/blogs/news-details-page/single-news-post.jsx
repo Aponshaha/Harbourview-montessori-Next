@@ -30,11 +30,10 @@ const SingleNewsArea = ({ item }) => {
                         {item.title}
                       </h3>
                       <p>
-                        Harbourview Montessori was born from a dream. This dream
-                        was to create the most beautiful, calm and enriching
-                        environment for young children. It was to create a place
-                        in which children would be supported in their
-                        development, learn according to their individual
+                        This dream was to create the most beautiful, calm and
+                        enriching environment for young children. It was to
+                        create a place in which children would be supported in
+                        their development, learn according to their individual
                         learning styles and temperaments, and come to know that
                         they have unique gifts to be developed and realized.
                       </p>

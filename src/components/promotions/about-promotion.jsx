@@ -19,13 +19,19 @@ const AboutPromotion = () => {
                   Friendly atmosphere for all kids
                 </h2>
                 <span className="mb-10 d-inline-block">
-                  A Swiss follower of Jean-Jacques Rousseau’s belief in the
-                  inherent goodness of children helper.
+                  Harbourview Montessori School is a warm and supportive
+                  community of students, teachers and parents. You will not get
+                  lost in the crowd here!
                 </span>
                 <p>
-                  The kindergarten was developed in the nineteenth century by
-                  Friedrich Froebel, a German reformer and educator. He built
-                  upon the ideas of Johann Heinrich Pestalozzi.
+                  We begin with a deep respect for the child as a unique
+                  individual. We work from a deep concern for his or her social
+                  and emotional development because there is far more to
+                  education than mastering facts.
+                </p>
+                <p>
+                  We consciously teach our students to be kind, generous and
+                  peaceful. We include this in our daily routines.
                 </p>
               </div>
               <div className="bd-promotion-list-2">

@@ -15,7 +15,7 @@ const blog_data = [
   {
     id: 1,
     img: img_1,
-    title: 'Tips to Understand Your Child Better - A Guide for Parents!',
+    title: 'Harbourview Montessori was born from a dream.',
     date: '22 Jan 2023',
     user: 'Alex',
     comments: 0,

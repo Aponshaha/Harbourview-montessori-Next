@@ -79,19 +79,13 @@ const HomePromotion = ({ promoImg, promo_space }) => {
               >
                 <div className="bd-section-title-wrapper mb-35">
                   <h2 className="bd-section-title mb-10">Best for Your Kids</h2>
-                  {promo_space && (
+                  {/* {promo_space && (
                     <span>
                       Some states and countries implement mandatory early
                       childhood education such rules, many preschool.
                     </span>
-                  )}
-                  <p>
-                    {" "}
-                    Being brave isn’t always a grand gesture sometimes it just
-                    means having a go attempting that difficult question,
-                    offering an answer in a lesson when you’re simply really
-                    trying new.
-                  </p>
+                  )} */}
+                  {/* <p> Being brave</p> */}
                 </div>
                 {!promo_space && (
                   <div className="bd-promotion-counter-wrapper mb-40">
@@ -112,8 +106,28 @@ const HomePromotion = ({ promoImg, promo_space }) => {
                 )}
                 <div className="bd-promotion-list mb-50">
                   <ul>
-                    <li>We believe every child is intelligent so we care.</li>
-                    <li>Teachers make a difference of your child.</li>
+                    <li>
+                      We work from a deep concern for his or her social and
+                      emotional development because there is far more to
+                      education than mastering facts.
+                    </li>
+                    <li>
+                      We ensure a warm and supportive community of students,
+                      teachers and parents.
+                    </li>
+                    <li>
+                      We consciously teach our students to be kind, generous and
+                      peaceful.
+                    </li>
+                    <li>
+                      We provide comfortable and exciting environments for
+                      learning about the world.
+                    </li>
+                    <li>
+                      Students learn actively through hands-on experience,
+                      investigation, and research, promoting engagement in
+                      studies rather than passive acceptance.
+                    </li>
                   </ul>
                 </div>
                 <div className="bd-promotion-btn-wrapper flex-wrap">

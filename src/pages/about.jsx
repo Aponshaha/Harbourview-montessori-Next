@@ -22,12 +22,12 @@ export default function About() {
       <Header />
       <Breadcrumb title="About" subTitle="About" />
       <SingleNewsArea item={item} />
-      <HomeThreeFeature wave={true} />
-      <HomePromotion promo_space="pt-120 pb-60" promoImg={promoImgTwo} />
-      <AboutPromotion />
       <AboutTestimonial />
-      <HomeTeacher />
+      <HomePromotion promo_space="pt-120 pb-60" promoImg={promoImgTwo} />
+      {/* <HomeThreeFeature wave={true} /> */}
       <AboutFact />
+      <AboutPromotion />
+      <HomeTeacher />
       <HomeNewsletter />
       <Footer />
     </Wrapper>
