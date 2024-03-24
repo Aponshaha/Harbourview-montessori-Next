@@ -39,24 +39,18 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                 </button>
               </div>
             </div>
-            <div className="offcanvas__search mb-40">
-              <form onSubmit={handleSubmit}>
-                <button type="submit">
-                  <i className="flaticon-search"></i>
-                </button>
-                <input type="text" placeholder="Search here" />
-              </form>
-            </div>
             <div className="mobile-menu fix mb-30 menu-counter d-lg-none mean-container">
               <div className="mean-bar">
                 <MobileMenus />
               </div>
             </div>
             <div className="offcanvas__about d-none d-lg-block mb-30">
-              <h4>About Kindedo</h4>
+              <h4>About Harbourview Montessori</h4>
               <p>
-                With the help of teachers and environment as the third teacher,
-                students have opportunities to confidently take risks.
+                Harbourview Montessori is a school that grew from a place of
+                great love and respect for children. It was the brainchild of
+                the founder, teacher and mom, Michelle Morrison. Here is how she
+                describes the evolution of the school
               </p>
             </div>
             <div className="offcanvas__contact mb-30">
@@ -78,7 +72,8 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                       rel="noreferrer"
                       href="https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873"
                     >
-                      12/A, Mirnada City Tower, NYC
+                      290 Murphy Road (Westmount), Sydney, NS, Canada, Nova
+                      Scotia.
                     </a>
                   </div>
                 </li>
@@ -89,7 +84,7 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                     </a>
                   </div>
                   <div className="offcanvas__contact-text">
-                    <a href="tel:+088889797697">088889797697</a>
+                    <a href="tel:+088889797697">+1 902-539-8884</a>
                   </div>
                 </li>
                 <li className="d-flex align-items-center gap-2">
@@ -110,7 +105,7 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.facebook.com/"
+                    href="https://www.facebook.com/profile.php?id=100063698166915&fref=ts"
                   >
                     <i className="fa-brands fa-facebook-f"></i>
                   </a>

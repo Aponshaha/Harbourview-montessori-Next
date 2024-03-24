@@ -67,19 +67,18 @@ const menu_data = [
       }
     ]
   },
-  // {
-  //   id: 4,
-  //   hasDropdown: true,
-  //   title: 'Shop',
-  //   link: '/shop',
-  //   submenus: [
-  //     { title: 'Shop Main', link: '/shop' },
-  //     { title: 'Shop Details', link: '/shop-details' },
-  //     { title: 'Wishlist', link: '/wishlist' },
-  //     { title: 'Cart', link: '/cart' },
-  //     { title: 'Checkout', link: '/checkout' },
-  //   ]
-  // },
+  {
+    id: 4,
+    hasDropdown: true,
+    title: 'Our school',
+    link: '/school',
+    submenus: [
+      { title: 'Our School', link: '/school' },
+      { title: 'Our Students', link: '/student' },
+      { title: 'Teachers & Staffs', link: '/teachers' },
+      { title: 'Our Parents', link: '/testimonials' },
+    ]
+  },
   // {
   //   id: 4,
   //   title: 'Pages',
@@ -131,15 +130,25 @@ const menu_data = [
       { title: 'Testimonial', link: '/testimonials' },
       { title: 'Program Details', link: '/program-details' },
       { title: 'Gallery', link: '/gallery' },
-      { title: 'Teachers', link: '/teachers' },
+      { title: 'Admission ', link: '/admission' },
       { title: 'FAQ', link: '/faq' },
       { title: 'Time Table', link: '/time-tables' },
-      // { title: 'Contact', link: '/contact' },
+      { title: 'Dress Code', link: '/dresscode' },
       // { title: 'About', link: '/about' },
     ]
   },
   {
     id: 6,
+    hasDropdown: true,
+    title: 'Our Approach',
+    link: '#',
+    submenus: [
+      { title: 'Our Approach', link: '/approach' },
+      { title: 'Outdoor Classroom', link: '/outdoor-approach' },
+    ]
+  },
+  {
+    id: 7,
     hasDropdown: false,
     title: 'News',
     link: '/news-classic',
@@ -151,7 +160,7 @@ const menu_data = [
     // ]
   },
   {
-    id: 7,
+    id: 8,
     hasDropdown: false,
     title: 'Contact',
     link: '/contact',

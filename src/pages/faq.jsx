@@ -8,18 +8,17 @@ import FaqQuestion from "@components/faqs/faq-question";
 import ProgramPromotion from "@components/promotions/program-promotion";
 import HeaderFour from "@layout/headers/headerFour";
 
-
 export default function FAQ() {
   return (
     <Wrapper>
-      <SEO pageTitle={'FAQ'} />
+      <SEO pageTitle={"FAQ"} />
       <HeaderFour />
       <Breadcrumb title="FAQ" subTitle="FAQ" />
       <FaqPageMain />
-      <FaqQuestion />
+      {/* <FaqQuestion /> */}
       <ProgramPromotion />
       <HomeNewsletter />
-      <Footer/>
+      <Footer />
     </Wrapper>
-  )
+  );
 }

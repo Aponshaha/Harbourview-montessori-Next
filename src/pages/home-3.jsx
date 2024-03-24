@@ -11,21 +11,20 @@ import HomeNewsletter from "@components/newsletter/home-newsletter";
 import HeaderThree from "@layout/headers/headerThree";
 import HomeThreeShop from "@components/shop/home-three-shop";
 
-
 export default function HomeThree() {
   return (
     <Wrapper>
-      <SEO pageTitle={'Home Three'} />
-      <HeaderThree/>
-      <HomeThreeHero/>
-      <HomeThreeCategories/>
-      <HomeThreeBanner/>
-      <HomeThreeShop/>
-      <HomeThreeAbout/>
-      <HomeThreeFeature/>
-      <HomeBlog blog_wrap="bd-blog-content-2" blog_date="bd-blog-date-2" blog_dot={true} />
+      <SEO pageTitle={"Home Three"} />
+      <HeaderThree />
+      <HomeThreeHero />
+      <HomeThreeCategories />
+      <HomeThreeBanner />
+      <HomeThreeShop />
+      <HomeThreeAbout />
+      <HomeThreeFeature />
+      {/* <HomeBlog blog_wrap="bd-blog-content-2" blog_date="bd-blog-date-2" blog_dot={true} /> */}
       <HomeNewsletter />
       <FooterThree />
     </Wrapper>
-  )
+  );
 }

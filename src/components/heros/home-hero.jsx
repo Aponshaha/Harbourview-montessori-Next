@@ -138,7 +138,7 @@ const HomeTwoHero = () => {
                                   data-animation="fadeInUp"
                                   data-delay=".7s"
                                 >
-                                  <Link href="/programs" className="bd-btn">
+                                  <Link href="/admission" className="bd-btn">
                                     <span className="bd-btn-inner">
                                       <span className="bd-btn-normal">
                                         {item.btn}

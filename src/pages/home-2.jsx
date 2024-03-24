@@ -14,23 +14,22 @@ import HomeTwoGallary from "@components/gallary/home-two-gallary";
 import FooterTwo from "@layout/footers/footerTwo";
 import HeaderTwo from "@layout/headers/headerTwo";
 
-
 export default function HomeTwo() {
   return (
     <Wrapper>
-      <SEO pageTitle={'Home Two'} />
-      <HeaderTwo/>
-      <HomeTwoHero/>
-      <HomeTwoClass/>
+      <SEO pageTitle={"Home Two"} />
+      <HeaderTwo />
+      <HomeTwoHero />
+      <HomeTwoClass />
       <HomePromotion promoImg={promoImgTwo} />
       <HomeTwoProgram />
-      <HomeAbout/>
-      <HomeTwoTeacher/>
-      <HomeTwoTestimonial/>
-      <HomeBanner/>
-      <HomeBlog blog_wrap="bd-blog-content-2" blog_date="bd-blog-date-2" />
+      <HomeAbout />
+      <HomeTwoTeacher />
+      <HomeTwoTestimonial />
+      <HomeBanner />
+      {/* <HomeBlog blog_wrap="bd-blog-content-2" blog_date="bd-blog-date-2" /> */}
       <HomeTwoGallary />
       <FooterTwo />
     </Wrapper>
-  )
+  );
 }

@@ -6,7 +6,7 @@ const footer_data = {
         id: 1,
         logo: logo,
         logoWhite: logoWhite,
-        teaser: 'In our Adult Participation programs, for most students, it is their first program in Kindedo.',
+        teaser: '“The education of a child is not for preparing him/her for school but for life!” - -Maria Montessori ',
         socialTitle: 'Social',
         newsTitle: 'Join Our Newsletter',
         newsBtn: 'Subscribe now',
@@ -14,7 +14,7 @@ const footer_data = {
             {
                 id: 1,
                 icon: 'fa-brands fa-facebook-f',
-                url: 'https://www.facebook.com/',
+                url: 'https://www.facebook.com/profile.php?id=100063698166915&fref=ts',
                 name: 'Facebook',
             },
             {
@@ -46,11 +46,6 @@ const footer_data = {
                 path: '/programs',
             },
             {
-                id: 3,
-                menu: 'Classes',
-                path: '/classes',
-            },
-            {
                 id: 4,
                 menu: 'News',
                 path: '/news',
@@ -68,34 +63,19 @@ const footer_data = {
         programs: [
             {
                 id: 1,
-                menu: 'Play School',
-                path: '/programs',
+                menu: 'Children’s House',
+                path: '/program-details/1',
             },
             {
                 id: 2,
-                menu: 'Nursery',
-                path: '/programs',
+                menu: 'Elementary',
+                path: '/program-details/2',
             },
             {
                 id: 3,
-                menu: 'Junior Kg',
-                path: '/programs',
+                menu: 'After School Program',
+                path: '/program-details/3',
             },
-            {
-                id: 4,
-                menu: 'Senior Kg',
-                path: '/programs',
-            },
-            {
-                id: 5,
-                menu: 'Holiday Camp',
-                path: '/programs',
-            },
-            {
-                id: 6,
-                menu: 'Day Care',
-                path: '/programs',
-            }
         ]
     },
     "customer_services": {
@@ -148,7 +128,7 @@ const footer_data = {
             {
                 id: 3,
                 icon: 'fa-light fa-envelope',
-                url: 'mailto:support@kindedo.com',
+                url: 'mailto:devapon77@gmail.com',
                 title: 'support@harbourviewmontessori.com',
             }
         ]

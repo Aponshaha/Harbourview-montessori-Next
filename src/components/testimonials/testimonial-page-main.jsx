@@ -139,16 +139,16 @@ const TestimonialPageMain = () => {
                   <p>{item.review}</p>
                 </div>
                 <div className="bd-testimonial-avatar d-flex align-items-center">
-                  <div className="bd-testimonial-avatar-thumb">
+                  {/* <div className="bd-testimonial-avatar-thumb">
                     <Image
                       src={item.authorImg}
                       style={{ width: "100%", height: "100%" }}
                       alt="img not found"
                     />
-                  </div>
-                  <h6 className="bd-testimonial-avatar-title-2 mb-0">
+                  </div> */}
+                  {/* <h6 className="bd-testimonial-avatar-title-2 mb-0">
                     {item.author}
-                  </h6>
+                  </h6> */}
                   <div className="bd-testimonial-quote d-none d-sm-block clr-2">
                     <i className="flaticon-quote"></i>
                   </div>

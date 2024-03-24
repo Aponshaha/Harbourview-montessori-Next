@@ -6,16 +6,15 @@ import Breadcrumb from "@components/common/breadcrumb/breadcrumb";
 import NewsClassicPage from "@components/blogs/news-classic-page";
 import HeaderFour from "@layout/headers/headerFour";
 
-
 export default function NewsClassic() {
   return (
     <Wrapper>
-      <SEO pageTitle={'News Classic'} />
+      <SEO pageTitle={"News"} />
       <HeaderFour />
-      <Breadcrumb title="News Classic" subTitle="News Classic" />
+      <Breadcrumb title="News" subTitle="News" />
       <NewsClassicPage />
       <HomeNewsletter />
-      <Footer/>
+      <Footer />
     </Wrapper>
-  )
+  );
 }

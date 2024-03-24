@@ -10,21 +10,21 @@ import useModal from "@hooks/use-modal";
 const fact_items = [
   {
     id: 1,
-    count: "14",
+    count: "20",
     title: "Years of",
     subTitle: "experience",
     text: "+",
   },
   {
     id: 2,
-    count: "7",
+    count: "2",
     title: "Students",
     subTitle: "each year",
     text: "K+",
   },
   {
     id: 3,
-    count: "15",
+    count: "10",
     title: "Award",
     subTitle: "Wining",
     text: "+",
@@ -37,7 +37,9 @@ const HomePromotion = ({ promoImg, promo_space }) => {
   return (
     <>
       <section
-        className={`bd-promotion-area ${promo_space ? promo_space : "pb-60"}`}
+        className={`bd-promotion-area pt-60 ${
+          promo_space ? promo_space : "pb-60"
+        }`}
         id="bd-promotion-area"
       >
         <div className="container">
@@ -132,7 +134,7 @@ const HomePromotion = ({ promoImg, promo_space }) => {
                 </div>
                 <div className="bd-promotion-btn-wrapper flex-wrap">
                   <div className="bd-promotion-btn">
-                    <Link href="/programs" className="bd-btn">
+                    <Link href="/admission" className="bd-btn">
                       <span className="bd-btn-inner">
                         <span className="bd-btn-normal">Apply now</span>
                         <span className="bd-btn-hover">Apply now</span>

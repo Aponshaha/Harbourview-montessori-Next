@@ -20,15 +20,15 @@ export default function Home() {
       <SEO pageTitle={"Home Main"} />
       <Header />
       <HomeHero />
-      <HomeClass />
-      <HomePromotion />
       <HomeProgram />
+      {/* <HomeClass /> */}
+      <HomePromotion />
       <HomeAbout />
       <HomeBanner />
       <HomeTeacher />
       <HomeTestimonial />
-      <HomeBlog />
-      <HomeNewsletter />
+      {/* <HomeBlog /> */}
+      {/* <HomeNewsletter /> */}
       <Footer />
     </Wrapper>
   );
