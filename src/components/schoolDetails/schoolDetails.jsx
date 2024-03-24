@@ -73,10 +73,10 @@ const SchoolDetails = () => {
                         </div>
                         <div className="bd-blog-quote-content">
                           <p>
-                            Always keep a positive mindset, it will improve your
-                            outlook on the world.
+                            The education of a child is not for preparing
+                            him/her for school but for life!
                           </p>
-                          <span>Roald Dahl</span>
+                          <span>Maria Montessori</span>
                         </div>
                       </blockquote>
                     </div>

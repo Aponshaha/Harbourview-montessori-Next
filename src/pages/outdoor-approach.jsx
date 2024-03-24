@@ -12,7 +12,6 @@ export default function School() {
       <SEO pageTitle={" Our Outdoor classroom"} />
       <HeaderFour />
       <Breadcrumb title="Outdoor classroom" subTitle="Outdoor Approach" />
-      {/* <ShopPageMain /> */}
       <OutdoorApproachDetails />
       <HomeNewsletter />
       <Footer />
