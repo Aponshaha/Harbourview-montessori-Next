@@ -4,7 +4,7 @@ import React from "react";
 const fact_items = [
   {
     id: 1,
-    count: "10",
+    count: "20",
     title: (
       <>
         years of
@@ -16,7 +16,7 @@ const fact_items = [
   },
   {
     id: 2,
-    count: "7",
+    count: "2",
     title: (
       <>
         Students
@@ -28,7 +28,7 @@ const fact_items = [
   },
   {
     id: 3,
-    count: "15",
+    count: "10",
     title: (
       <>
         Award

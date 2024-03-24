@@ -38,7 +38,7 @@ const HomeAbout = () => {
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          What is the best age to start Kindergarten?
+                          What ages does your school serve?
                         </button>
                       </h2>
                       <div
@@ -49,9 +49,8 @@ const HomeAbout = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Some states and countries implement mandatory early
-                            childhood education. With such rules, many preschool
-                            and kindergarten learning centers are built.
+                            The starting age is 2 ½ years. We serve children to
+                            grade 5.
                           </p>
                         </div>
                       </div>
@@ -66,7 +65,8 @@ const HomeAbout = () => {
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          Which is the best preschool for your child ?
+                          How many students are typically in a Montessori
+                          Classroom?
                         </button>
                       </h2>
                       <div
@@ -77,10 +77,10 @@ const HomeAbout = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Right after you book your party, you’ll receive an
-                            email confirming the date, time, and details about
-                            what’s included in the package you’ve selected
-                            result.
+                            The maximum number per class is 20. Our Children’s
+                            House rooms are regulated by Department of Education
+                            Early Years; therefore, we maintain the proper ratio
+                            of teachers to children. The ratio is 1:8.
                           </p>
                         </div>
                       </div>
@@ -95,7 +95,7 @@ const HomeAbout = () => {
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          What is the toution fee on first year?
+                          What is the process for registration?
                         </button>
                       </h2>
                       <div
@@ -106,10 +106,13 @@ const HomeAbout = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            There will also be some fantastic outdoor
-                            entertainment, desserts and drinks, plus tours of
-                            the School for those who want to continue the
-                            celebrations.
+                            The first step is to contact our school via phone or
+                            email in order to scheduled a tour. During your
+                            tour, a teacher will give you an overview of the
+                            daily schedule and will answer any questions that
+                            you may have. You will then be added to our wait
+                            list. You will receive our annual contract, health
+                            questionnaire and parent handbook to review.
                           </p>
                         </div>
                       </div>

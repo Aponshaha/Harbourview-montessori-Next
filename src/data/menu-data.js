@@ -12,9 +12,13 @@ const menu_data = [
   },
   {
     id: 2,
-    hasDropdown: false,
+    hasDropdown: true,
     title: 'About',
     link: '/about',
+    submenus: [
+      { title: 'About Us', link: '/about' },
+      { title: 'Dr. Maria Montessori', link: '/MariaMontessori' },
+    ]
   },
   {
     id: 3,
@@ -127,7 +131,7 @@ const menu_data = [
       { title: 'Testimonial', link: '/testimonials' },
       { title: 'Program Details', link: '/program-details' },
       { title: 'Gallery', link: '/gallery' },
-      { title: 'Teacher Details', link: '/teacher-details' },
+      { title: 'Teachers', link: '/teachers' },
       { title: 'FAQ', link: '/faq' },
       { title: 'Time Table', link: '/time-tables' },
       // { title: 'Contact', link: '/contact' },

@@ -18,7 +18,7 @@ const TopbarTwo = () => {
                       <p>Journey Since 1990</p>
                     </div>
                   </div>
-                  <div className="bd-header-meta-item d-flex align-items-center">
+                  <div className="bd-header-meta-item d-flex align-items-center px-4">
                     <div className="bd-header-meta-icon">
                       <i className="fas fa-map-marker-alt"></i>
                     </div>
