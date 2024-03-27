@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import promotion from "@assets/img/promotion/1.png";
+import promotion from "@assets/img/school/connor.png";
 import line from "@assets/img/shape/tripple-line.png";
 import Link from "next/link";
 import CountUpContent from "@components/common/counter";
@@ -52,13 +52,17 @@ const HomePromotion = ({ promoImg, promo_space }) => {
               >
                 <div className="bd-promotion-thumb">
                   <div
-                    className="bd-promotion-thumb-mask p-relative wow fadeInLeft"
+                    className="bd-promotion p-relative wow fadeInLeft"
                     data-wow-duration="1s"
                     data-wow-delay=".3s"
                   >
                     <Image
                       src={promoImg ? promoImg : promotion}
-                      style={{ width: "100%", height: "100%" }}
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        borderRadius: "10%",
+                      }}
                       alt="img not found"
                     />
                     <div className="panel wow"></div>

@@ -1,5 +1,5 @@
 import React from "react";
-import faqImg from "@assets/img/faq/1.jpg";
+import faqImg from "@assets/img/school/V-Day.png";
 import trippleLine from "@assets/img/shape/tripple-line.png";
 import Image from "next/image";
 

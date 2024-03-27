@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import joiningBg from "@assets/img/bg/joining-area.png";
+import joiningBg from "@assets/img/school/homepage_slider_torn_2.jpg";
 import line from "@assets/img/shape/white-curved-line.png";
 import Image from "next/image";
 
