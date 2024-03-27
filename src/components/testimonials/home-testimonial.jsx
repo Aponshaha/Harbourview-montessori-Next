@@ -6,7 +6,7 @@ import { Scrollbar, A11y, Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import shape from "@assets/img/bg/bg-shape.jpg";
-import bg from "@assets/img/school/V-Day.png";
+import bg from "@assets/img/school/jaden.jpg";
 import img1 from "@assets/img/testimonials/1.png";
 import img2 from "@assets/img/testimonials/3.png";
 import img3 from "@assets/img/testimonials/2.png";

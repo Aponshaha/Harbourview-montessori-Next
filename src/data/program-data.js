@@ -1,9 +1,9 @@
-import program_1 from '@assets/img/program/home-program-1.jpg';
-import program_2 from '@assets/img/program/home-program-2.jpg';
-import program_3 from '@assets/img/program/home-program-3.jpg';
-import program_4 from '@assets/img/program/home-program-4.jpg';
-import program_5 from '@assets/img/program/home-program-5.jpg';
-import program_6 from '@assets/img/program/home-program-1.jpg';
+import program_3 from '@assets/img/school/language.jpg';
+import program_2 from '@assets/img/school/oli.jpg';
+import program_1 from '@assets/img/school/maddy.jpg';
+import program_4 from '@assets/img/school/will.jpg';
+import program_5 from '@assets/img/school/wilson.jpg';
+import program_6 from '@assets/img/school/language.jpg';
 import ProgramIconOne from '@svg/program-icon-1';
 import ProgramIconTwo from '@svg/program-icon-2';
 import ProgramIconThree from '@svg/program-icon-3';
@@ -83,7 +83,7 @@ const program_data = [
     id: 2,
     title: 'Children’s House',
     subTitle: 'Extended Day Program',
-    img: program_1,
+    img: program_2,
     subDescription: 'Extended Day Program - In Montessori Schools, children are grouped according to developmental stages rather than being separated on the basis of age/grade.',
     description: 'The youngest children in our school engage in practical life activities designed to reinforce care of self and care of environment. The activities support the development of motor control, hand-eye coordination, concentration, independence and a sense of order.',
     midDesc: 'They engage in sensorial activities with materials such as the beautifully crafted geometric solids, coloured cylinders and colour tablets. They move through the process of reading and writing with the sandpaper letters, movable alphabet and a variety of materials which lead to independence in reading and writing.',
@@ -150,7 +150,7 @@ const program_data = [
     id: 3,
     title: 'Elementary',
     subTitle: '',
-    img: program_1,
+    img: program_3,
     subDescription: 'Harbourview Montessori’s elementary program is exceptional, encompassing the best that Montessori curriculum has to offer.',
     description: 'In this way, we create little communities of learners who help one another to learn and grow. We operate an after school program for working parents and for parents who need a little extra time to get things done.',
     icon: <ProgramIconOne />,
@@ -181,7 +181,7 @@ const program_data = [
     id: 4,
     title: 'After School Program',
     subTitle: '',
-    img: program_1,
+    img: program_4,
     subDescription: 'We aim to cater to working parents who require extended care hours for their children.',
     description: 'In this way, we create little communities of learners who help one another to learn and grow. We operate an after school program for working parents and for parents who need a little extra time to get things done.',
     icon: <ProgramIconOne />,
