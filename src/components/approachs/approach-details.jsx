@@ -6,7 +6,7 @@ import Image from "next/image";
 import Pagination_Data from "@components/common/pagination";
 // import approach_data from "@data/school-details-data";
 // images
-import img_1 from "@assets/img/shop/1.1.png";
+import img_1 from "@assets/img/school/homepage_slider_torn_2.jpg";
 import HMSchool from "@assets/img/school/student-amy.jpeg";
 
 const approach_data = {
@@ -47,7 +47,11 @@ const ApproachDetails = () => {
                       {approach_data.schoolImg && (
                         <Image
                           src={approach_data.schoolImg}
-                          style={{ width: "100%", height: "400px" }}
+                          style={{
+                            width: "100%",
+                            height: "500px",
+                            objectFit: "contain",
+                          }}
                           alt="img not found"
                         />
                       )}

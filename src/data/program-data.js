@@ -80,6 +80,37 @@ const program_data = [
     ]
   },
   {
+    id: 3,
+    title: 'Elementary',
+    subTitle: '',
+    img: program_3,
+    subDescription: 'Harbourview Montessori’s elementary program is exceptional, encompassing the best that Montessori curriculum has to offer.',
+    description: 'In this way, we create little communities of learners who help one another to learn and grow. We operate an after school program for working parents and for parents who need a little extra time to get things done.',
+    icon: <ProgramIconOne />,
+    clrClass: 'clr-1',
+    authorImg: author_1,
+    authorName: 'Alexia Honix',
+    price: 175.00,
+    delay: '.2s',
+    programs: [
+      {
+        id: 1,
+        title: '7-11 Yrs',
+        subTitle: 'age',
+      },
+      {
+        id: 2,
+        title: '5 Days',
+        subTitle: 'weekly',
+      },
+      {
+        id: 3,
+        title: '5.30 Hrs',
+        subTitle: 'period',
+      }
+    ]
+  },
+  {
     id: 2,
     title: 'Children’s House',
     subTitle: 'Extended Day Program',
@@ -143,37 +174,6 @@ const program_data = [
       {
         id: 5,
         value: 'geography'
-      }
-    ]
-  },
-  {
-    id: 3,
-    title: 'Elementary',
-    subTitle: '',
-    img: program_3,
-    subDescription: 'Harbourview Montessori’s elementary program is exceptional, encompassing the best that Montessori curriculum has to offer.',
-    description: 'In this way, we create little communities of learners who help one another to learn and grow. We operate an after school program for working parents and for parents who need a little extra time to get things done.',
-    icon: <ProgramIconOne />,
-    clrClass: 'clr-1',
-    authorImg: author_1,
-    authorName: 'Alexia Honix',
-    price: 175.00,
-    delay: '.2s',
-    programs: [
-      {
-        id: 1,
-        title: '7-11 Yrs',
-        subTitle: 'age',
-      },
-      {
-        id: 2,
-        title: '5 Days',
-        subTitle: 'weekly',
-      },
-      {
-        id: 3,
-        title: '5.30 Hrs',
-        subTitle: 'period',
       }
     ]
   },
