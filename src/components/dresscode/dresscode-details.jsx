@@ -6,7 +6,7 @@ import Image from "next/image";
 import Pagination_Data from "@components/common/pagination";
 // import dresscode_data from "@data/school-details-data";
 // images
-import img_1 from "@assets/img/shop/1.1.png";
+import img_1 from "@assets/img/school/food_prep.jpg";
 import HMSchool from "@assets/img/school/student-amy.jpeg";
 
 const dresscode_data = {
@@ -38,18 +38,18 @@ const DresscodeDetails = () => {
                       {dresscode_data.schoolImg && (
                         <Image
                           src={dresscode_data.schoolImg}
-                          style={{ width: "100%", height: "400px" }}
+                          style={{ width: "100%", height: "600px" }}
                           alt="img not found"
                         />
                       )}
                     </div>
                     <div
-                      className="bd-blog-details-meta wow fadeInUp pt-120"
+                      className="bd-blog-details-meta wow fadeInUp pt-180"
                       data-wow-duration="1s"
                       data-wow-delay=".3s"
                     ></div>
                     <div
-                      className="bd-blog-details-content wow fadeInUp"
+                      className="bd-blog-details-content wow fadeInUp pt-100"
                       data-wow-duration="1s"
                       data-wow-delay=".3s"
                     >
