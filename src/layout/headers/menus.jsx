@@ -68,7 +68,7 @@ const Menus = () => {
                             <div className="mega-menu-2-inner-thumb p-relative">
                               <img
                                 src={sub_mega_two.img}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "auto", height: "400px" }}
                                 alt="img not found"
                               />
                               <div className="mega-menu-2-inner-thumb-content">

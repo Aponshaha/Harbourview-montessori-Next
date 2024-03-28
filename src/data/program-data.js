@@ -85,7 +85,7 @@ const program_data = [
     subTitle: '',
     img: program_3,
     subDescription: 'Harbourview Montessori’s elementary program is exceptional, encompassing the best that Montessori curriculum has to offer.',
-    description: 'In this way, we create little communities of learners who help one another to learn and grow. We operate an after school program for working parents and for parents who need a little extra time to get things done.',
+    description: 'In this way, we create little communities of learners who help one another to learn and grow. We operate an after school program for working parents and for parents who need a little extra time to get things done.Our goal is for each child to develop not only a responsibility for the self but for others as well; therefore, attention is given to each child as an individual in relationship to the entire group.',
     icon: <ProgramIconOne />,
     clrClass: 'clr-1',
     authorImg: author_1,
