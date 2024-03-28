@@ -50,19 +50,19 @@ const menu_data = [
       {
         title: 'List 1', link: '#',
         submenus: [
-          { programImg: true, title: 'Children’s House', link: '/programs', img: '/assets/img/school/programs/oli.jpg', btn: 'View More' },
+          { programImg: true, title: 'Children’s House', link: '/program-details/1', img: '/assets/img/school/programs/oli.jpg', btn: 'View More' },
         ]
       },
       {
         title: 'List 2', link: '#',
         submenus: [
-          { programImg: true, title: 'Elementary', link: '/programs', img: '/assets/img/school/programs/crazy_hair_day.jpeg', btn: 'View More' },
+          { programImg: true, title: 'Elementary', link: '/program-details/2', img: '/assets/img/school/programs/ithiel.jpg', btn: 'View More' },
         ]
       },
       {
         title: 'List 3', link: '#',
         submenus: [
-          { programImg: true, title: 'After School Program', link: '/programs', img: '/assets/img/school/programs/wilson.jpg', btn: 'View More' },
+          { programImg: true, title: 'After School Program', link: '/program-details/3', img: '/assets/img/school/programs/wilson.jpg', btn: 'View More' },
         ]
       },
       {
