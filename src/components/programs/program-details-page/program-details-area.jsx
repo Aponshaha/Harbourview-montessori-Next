@@ -1,23 +1,24 @@
 import Breadcrumb from "@components/common/breadcrumb/breadcrumb";
 import React from "react";
 import Image from "next/image";
-import program_2 from "@assets/img/program/home-program-2.jpg";
-import program_3 from "@assets/img/program/home-program-3.jpg";
+import program_2 from "@assets/img/school/programs/crazy_hair_day.jpg";
+import program_3 from "@assets/img/school/programs/drawing.jpg";
 import { Scrollbar, A11y, Autoplay, EffectFade, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import ProgramCat from "./program-cat";
 import ClassDetailsWidget from "@components/classes/class-details-page/class-details-widget";
 import ClassDetailsWidgetTwo from "@components/classes/class-details-page/class-details-widget-two";
-import HomeBanner from "@components/banners/home-banner";
 import LearningSchedule from "./learning-schedule";
-import MoreProgrammers from "@components/classes/class-details-page/more-programmers";
+import ClassDetailsBasic from "@components/classes/class-details-page/class-details-basic";
+
+const programheader =
+  "In Montessori Schools, children are grouped according to developmental stages rather than being separated on the basis of age/grade. In this way, we create little communities of learners who help one another to learn and grow. We operate an after school program for working parents and for parents who need a little extra time to get things done.";
 
 const ProgramDetailsArea = ({ item }) => {
   return (
     <>
       <Breadcrumb title="Program Details" subTitle="Program Details" />
-
       <section className="bd-program-details-widget pt-120 pb-70">
         <div className="container">
           <div className="row">
@@ -63,7 +64,7 @@ const ProgramDetailsArea = ({ item }) => {
                           {item.img && (
                             <Image
                               src={item.img}
-                              style={{ width: "100%", height: "100%" }}
+                              style={{ width: "100%", height: "550px" }}
                               alt="img not found"
                             />
                           )}
@@ -73,7 +74,7 @@ const ProgramDetailsArea = ({ item }) => {
                         <div className="bd-program-details-slider-thumb">
                           <Image
                             src={program_2}
-                            style={{ width: "100%", height: "100%" }}
+                            style={{ width: "100%", height: "550px" }}
                             alt="img not found"
                           />
                         </div>
@@ -82,7 +83,7 @@ const ProgramDetailsArea = ({ item }) => {
                         <div className="bd-program-details-slider-thumb">
                           <Image
                             src={program_3}
-                            style={{ width: "100%", height: "100%" }}
+                            style={{ width: "100%", height: "550px" }}
                             alt="img not found"
                           />
                         </div>
@@ -107,48 +108,45 @@ const ProgramDetailsArea = ({ item }) => {
                 data-wow-duration="1s"
                 data-wow-delay=".3s"
               >
-                <h3 className="bd-program-details-widget-title mb-20">
-                  {item.title}
-                </h3>
-                <p className="mb-25">{item.description}</p>
-                <p className="mb-25">{item.midDesc}</p>
-                <div className="bd-program-details-author-wrapper mt-35">
-                  <div className="bd-program-details-author">
-                    <div className="bd-program-details-author-thumb">
-                      {item.authorImg && (
-                        <Image
-                          src={item.authorImg}
-                          style={{ width: "100%", height: "100%" }}
-                          alt="img not found"
-                        />
-                      )}
-                    </div>
-                    <div className="bd-program-details-author-name">
-                      <span>Teacher</span>
-                      <h5>{item.authorName}</h5>
-                    </div>
-                  </div>
-                  <div className="bd-program-details-cat">
-                    <span>Categories</span>
-                    <h5>{item.title}</h5>
-                  </div>
-                  {/* <div className="bd-program-details-cat">
-                    <span>Per/Month</span>
-                    <h5>${item.price}</h5>
-                  </div> */}
+                <div className="bd-program-details-cat mb-50">
+                  <h5>{item.title}</h5>
+                  <p>{item.subTitle}</p>
+                  <button
+                    type="button"
+                    disabled
+                    class="btn btn-secondary"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    data-bs-custom-class="custom-tooltip"
+                    data-bs-title="This top tooltip is themed via CSS variables."
+                  >
+                    {item.days}
+                  </button>
+                  <p></p>
+                  <button
+                    type="button"
+                    disabled
+                    class="btn btn-secondary"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    data-bs-custom-class="custom-tooltip"
+                    data-bs-title="This top tooltip is themed via CSS variables."
+                  >
+                    {item.age}
+                  </button>
                 </div>
+
+                <h4 className="mb-25">{item.description}</h4>
               </div>
             </div>
           </div>
         </div>
       </section>
-
-      <ProgramCat item={item} />
-      <ClassDetailsWidget item={item} />
+      {/* <ClassDetailsWidget item={item} /> */}
+      <ClassDetailsBasic item={item} />
+      {/* <ClassDetailsWidgetTwo item={item} /> */}
       <LearningSchedule />
-      <ClassDetailsWidgetTwo item={item} />
-      {/* <HomeBanner /> */}
-      {/* <MoreProgrammers item={item} /> */}
+      <ProgramCat item={item} />
     </>
   );
 };

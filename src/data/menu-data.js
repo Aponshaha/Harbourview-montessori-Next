@@ -62,7 +62,7 @@ const menu_data = [
       {
         title: 'List 3', link: '#',
         submenus: [
-          { programImg: true, title: 'After School Program', link: '/program-details/3', img: '/assets/img/school/programs/wilson.jpg', btn: 'View More' },
+          { programImg: true, title: 'After School Program', link: '/program-details/4', img: '/assets/img/school/programs/wilson.jpg', btn: 'View More' },
         ]
       },
       {

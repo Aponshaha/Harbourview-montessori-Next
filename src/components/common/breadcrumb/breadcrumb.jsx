@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import bg from "@assets/img/bg/breadcrumb-bg.jpg";
+import bg from "@assets/img/school/banner/HMSchool.jpg";
 import line_1 from "@assets/img/shape/white-curved-line.png";
 import line_2 from "@assets/img/shape/curved-line-2.png";
 
