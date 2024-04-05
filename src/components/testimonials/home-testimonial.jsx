@@ -169,7 +169,7 @@ const HomeTestimonial = () => {
       <VideoModal
         isVideoOpen={isVideoOpen}
         setIsVideoOpen={setIsVideoOpen}
-        videoId={"go7QYaQR494"}
+        videoId={"GcgN0lEh5IA"}
       />
       {/* video modal end */}
     </>

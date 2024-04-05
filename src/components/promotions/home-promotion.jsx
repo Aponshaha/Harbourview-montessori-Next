@@ -165,7 +165,7 @@ const HomePromotion = ({ promoImg, promo_space }) => {
       <VideoModal
         isVideoOpen={isVideoOpen}
         setIsVideoOpen={setIsVideoOpen}
-        videoId={"GcgN0lEh5IA"}
+        videoId={"09Y-huCMjIc"}
       />
       {/* video modal end */}
     </>
