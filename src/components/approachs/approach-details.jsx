@@ -6,8 +6,8 @@ import Image from "next/image";
 import Pagination_Data from "@components/common/pagination";
 // import approach_data from "@data/school-details-data";
 // images
-import img_1 from "@assets/img/school/homepage_slider_torn_2.jpg";
-import HMSchool from "@assets/img/school/student-amy.jpeg";
+import img_1 from "@assets/img/school/circle.jpg";
+import HMSchool from "@assets/img/school/student-amy.jpg";
 
 const approach_data = {
   id: 1,
@@ -71,7 +71,7 @@ const ApproachDetails = () => {
                         data-wow-duration="1s"
                         data-wow-delay=".3s"
                       >
-                        <h4 className=" mt-5 mb-15 pb-20">
+                        <h4 className=" mt-5 mb-15 pt-60 pb-20">
                           {approach_data.header}
                         </h4>
                       </div>

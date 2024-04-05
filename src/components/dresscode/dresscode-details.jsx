@@ -7,7 +7,7 @@ import Pagination_Data from "@components/common/pagination";
 // import dresscode_data from "@data/school-details-data";
 // images
 import img_1 from "@assets/img/school/food_prep.jpg";
-import HMSchool from "@assets/img/school/student-amy.jpeg";
+import HMSchool from "@assets/img/school/student-amy.jpg";
 
 const dresscode_data = {
   id: 1,

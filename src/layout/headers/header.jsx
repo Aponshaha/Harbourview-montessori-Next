@@ -38,7 +38,7 @@ const Header = () => {
                     <nav id="mobile-menu">
                       <Menus />
                     </nav>
-                    <div className="bd-search-btn-wrapper">
+                    {/* <div className="bd-search-btn-wrapper">
                       <button
                         className="bd-search-open-btn"
                         type="button"
@@ -46,7 +46,7 @@ const Header = () => {
                       >
                         <i className="flaticon-search"></i>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="bd-header-bottom-right d-flex justify-content-end align-items-center">
                     <div className="bd-header-meta-item d-none bd-header-menu-meta d-xxl-flex align-items-center">

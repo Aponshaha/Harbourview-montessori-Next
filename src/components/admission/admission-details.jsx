@@ -7,7 +7,6 @@ import Pagination_Data from "@components/common/pagination";
 // import admission_data from "@data/school-details-data";
 // images
 import img_1 from "@assets/img/school/camping.jpg";
-import HMSchool from "@assets/img/school/student-amy.jpeg";
 
 const admission_data = {
   id: 1,

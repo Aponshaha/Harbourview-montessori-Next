@@ -26,7 +26,7 @@ const Footer = () => {
                       </Link>
                     </div>
                     <div className="bd-footer-widget-content mb-40">
-                      <p>{footer_data.description.teaser}</p>
+                      <strong>{footer_data.description.teaser}</strong>
                     </div>
                     <div className="bd-footer-bottom-social pb-20">
                       <ul>
@@ -81,7 +81,7 @@ const Footer = () => {
                   <div className="bd-footer-widget bd-footer-widget-4">
                     <div className="bd-footer-widget-content">
                       <h4 className="bd-footer-widget-title mb-30">
-                        {footer_data.contact_info.title}
+                        <strong>{footer_data.contact_info.title}</strong>
                       </h4>
                       <div className="bd-footer-contact">
                         <ul>

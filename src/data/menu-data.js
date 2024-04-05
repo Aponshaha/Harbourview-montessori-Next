@@ -132,7 +132,7 @@ const menu_data = [
     link: '#',
     submenus: [
       { title: 'Testimonial', link: '/testimonials' },
-      { title: 'Program Details', link: '/program-details' },
+      // { title: 'Program Details', link: '/program-details' },
       { title: 'Gallery', link: '/gallery' },
       { title: 'Admission ', link: '/admission' },
       { title: 'FAQ', link: '/faq' },

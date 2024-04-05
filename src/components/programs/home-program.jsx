@@ -68,7 +68,7 @@ const HomeProgram = () => {
                     },
                   }}
                 >
-                  {program_data.map((item, index) => {
+                  {program_data.slice(0, 3).map((item, index) => {
                     return (
                       <SwiperSlide key={index}>
                         <div
@@ -96,7 +96,14 @@ const HomeProgram = () => {
                             </h3>
                             {/* <h6>{item.subTitle}</h6> */}
                             {/* <p>{item.subDescription}</p> */}
-                            <p>{item.subDescription.slice(0, 100) + " ... "}</p>
+                            <p>
+                              {item.details[0].description.slice(
+                                0,
+                                120
+                                // item.details[0].description.indexOf(".") + 1
+                              )}
+                              {" ... "}
+                            </p>
                           </div>
                           <div className="bd-program-info-wrapper">
                             {item.programs.map((program, i) => (

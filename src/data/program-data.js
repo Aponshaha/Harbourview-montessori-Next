@@ -16,6 +16,7 @@ const program_data = [
   {
     id: 1,
     title: 'Children’s House',
+    featured: true,
     subTitle: 'Full-day Program',
     img: program_1,
     img2: program_5,
@@ -109,6 +110,7 @@ const program_data = [
     id: 2,
     title: 'The Elementary Years',
     subTitle: 'Elementary',
+    featured: true,
     img: program_2,
     img2: program_3,
     subDescription: 'Full-day Program',
@@ -158,9 +160,94 @@ const program_data = [
     keyAreaTitle: '',
   },
   {
+    id: 4,
+    title: 'After School Program',
+    subTitle: 'Elementary Program',
+    featured: true,
+    img: program_5,
+    img2: program_6,
+    subDescription: 'Elementary Program',
+    days: 'Mon-Fri : 2:30am-5:30pm',
+    details: [
+      {
+        id: 1,
+        description: 'The goal of our Extended Care Program is to provide a safe, relaxing and fun time for children at the end of the school day!'
+      },
+      {
+        id: 2,
+        description: 'You will appreciate knowing that your children are having fun in a safe, caring environment while you work.'
+      },
+      {
+        id: 3,
+        description: 'Perhaps you would like to pick up groceries or do some shopping after work and you know that we will take great care of your children.'
+      },
+      // {
+      //   id: 4,
+      //   description: 'Don’t be disappointed! Call early to secure a space in this fantastically fun program!'
+      // }
+    ],
+    description: 'Our Extended Care program is offered Monday to Friday, 2:30-5:30pm. We aim to cater to working parents who require extended care hours for their children. We usually have extra spaces for parents who occasionally need child care while they attend classes, get groceries or have appointments.',
+    icon: <ProgramIconOne />,
+    clrClass: 'clr-1',
+    authorImg: author_1,
+    authorName: 'Alexia Honix',
+    delay: '.2s',
+    age: '7-11 Yrs',
+    programs: [
+      {
+        id: 1,
+        title: '7-11 Yrs',
+        subTitle: 'age',
+      },
+      {
+        id: 2,
+        title: '5 Days',
+        subTitle: 'weekly',
+      },
+      {
+        id: 3,
+        title: '5.30 Hrs',
+        subTitle: 'period',
+      }
+    ],
+    isKeyArea: true,
+    keyAreaTitle: 'What’s available for children in Extended Care',
+    keyArea: [
+      {
+        id: 1,
+        value: 'Healthy, mid-afternoon snacks!'
+      },
+      {
+        id: 2,
+        value: 'REALLY COOL crafts for aspiring artists!'
+      },
+      {
+        id: 3,
+        value: 'Outdoor time for young naturalists and fitness buffs'
+      },
+      {
+        id: 4,
+        value: 'Building blocks, legos, etc. for budding engineers!'
+      },
+      {
+        id: 5,
+        value: 'Puppets for developing actors!'
+      },
+      {
+        id: 6,
+        value: 'A library for little bookworms!'
+      },
+      {
+        id: 7,
+        value: 'And so much more…!'
+      }
+    ]
+  },
+  {
     id: 3,
     title: 'Children’s House',
     subTitle: 'Extended-day Program',
+    featured: false,
     img: program_5,
     img2: program_3,
     subDescription: 'Full-day Program',
@@ -246,89 +333,6 @@ const program_data = [
       {
         id: 5,
         value: 'geography'
-      }
-    ]
-  },
-  {
-    id: 4,
-    title: 'After School Program',
-    subTitle: 'Elementary Program',
-    img: program_5,
-    img2: program_6,
-    subDescription: 'Elementary Program',
-    days: 'Mon-Fri : 2:30am-5:30pm',
-    details: [
-      {
-        id: 1,
-        description: 'The goal of our Extended Care Program is to provide a safe, relaxing and fun time for children at the end of the school day!'
-      },
-      {
-        id: 2,
-        description: 'You will appreciate knowing that your children are having fun in a safe, caring environment while you work.'
-      },
-      {
-        id: 3,
-        description: 'Perhaps you would like to pick up groceries or do some shopping after work and you know that we will take great care of your children.'
-      },
-      // {
-      //   id: 4,
-      //   description: 'Don’t be disappointed! Call early to secure a space in this fantastically fun program!'
-      // }
-    ],
-    description: 'Our Extended Care program is offered Monday to Friday, 2:30-5:30pm. We aim to cater to working parents who require extended care hours for their children. We usually have extra spaces for parents who occasionally need child care while they attend classes, get groceries or have appointments.',
-    icon: <ProgramIconOne />,
-    clrClass: 'clr-1',
-    authorImg: author_1,
-    authorName: 'Alexia Honix',
-    delay: '.2s',
-    age: '7-11 Yrs',
-    programs: [
-      {
-        id: 1,
-        title: '7-11 Yrs',
-        subTitle: 'age',
-      },
-      {
-        id: 2,
-        title: '5 Days',
-        subTitle: 'weekly',
-      },
-      {
-        id: 3,
-        title: '5.30 Hrs',
-        subTitle: 'period',
-      }
-    ],
-    isKeyArea: true,
-    keyAreaTitle: 'What’s available for children in Extended Care',
-    keyArea: [
-      {
-        id: 1,
-        value: 'Healthy, mid-afternoon snacks!'
-      },
-      {
-        id: 2,
-        value: 'REALLY COOL crafts for aspiring artists!'
-      },
-      {
-        id: 3,
-        value: 'Outdoor time for young naturalists and fitness buffs'
-      },
-      {
-        id: 4,
-        value: 'Building blocks, legos, etc. for budding engineers!'
-      },
-      {
-        id: 5,
-        value: 'Puppets for developing actors!'
-      },
-      {
-        id: 6,
-        value: 'A library for little bookworms!'
-      },
-      {
-        id: 7,
-        value: 'And so much more…!'
       }
     ]
   },

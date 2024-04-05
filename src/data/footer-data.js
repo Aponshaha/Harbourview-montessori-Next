@@ -6,7 +6,7 @@ const footer_data = {
         id: 1,
         logo: logo,
         logoWhite: logoWhite,
-        teaser: '“The education of a child is not for preparing him/her for school but for life!” - -Maria Montessori ',
+        teaser: '“The education of a child is not for preparing him/her for school but for life!” - Maria Montessori ',
         socialTitle: 'Social',
         newsTitle: 'Join Our Newsletter',
         newsBtn: 'Subscribe now',
