@@ -88,7 +88,7 @@ const HomeTestimonial = () => {
                   data-wow-duration="1s"
                   data-wow-delay=".3s"
                 >
-                  <h2 className="bd-section-title mb-0">Parents Say</h2>
+                  <h2 className="bd-section-title mb-0">Parent&apos;s Say</h2>
                 </div>
                 <div
                   className="bd-testimonial-active wow fadeInUp"
