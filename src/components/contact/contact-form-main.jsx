@@ -25,9 +25,9 @@ const ContactFormMain = () => {
               data-wow-delay=".3s"
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14596.899807208923!2d90.3654215!3d23.8461445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1673765392297!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2764.6938422091453!2d-60.219678800000004!3d46.1369281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b67fade94541a83%3A0x146ec4a2d02c2b62!2sHarbourview%20Montessori!5e0!3m2!1sen!2sjp!4v1712301400825!5m2!1sen!2sjp"
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>
