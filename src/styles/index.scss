@@ -6,4 +6,15 @@
 @import 'react-toastify/dist/ReactToastify.css';
 @import '@assets/scss/main.scss';
 
+.bd-header-top-clip-shape {
+    position: absolute;
+    inset-inline-start: 0;
+    top: 0;
+    height: 100%;
+    width: 278px;
+    background-color: #067069;
+    -webkit-clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
+}
+
 

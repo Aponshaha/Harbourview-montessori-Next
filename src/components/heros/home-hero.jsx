@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import shape from "@assets/img/shape/curved-line-2.png";
-import bg_1 from "@assets/img/school/HMSchool.jpeg";
+import bg_1 from "@assets/img/school/Harbourview.jpg";
 import bg_2 from "@assets/img/school/Gabriel_research.png";
 import bg_3 from "@assets/img/school/Valentines_Day.jpg";
 import { Scrollbar, A11y, Autoplay, EffectFade, Navigation } from "swiper";

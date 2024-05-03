@@ -136,7 +136,7 @@ const menu_data = [
       { title: 'Gallery', link: '/gallery' },
       { title: 'Admission ', link: '/admission' },
       { title: 'FAQ', link: '/faq' },
-      { title: 'Time Table', link: '/time-tables' },
+      // { title: 'Time Table', link: '/time-tables' },
       { title: 'Dress Code', link: '/dresscode' },
       // { title: 'About', link: '/about' },
     ]

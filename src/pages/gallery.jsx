@@ -6,16 +6,14 @@ import Breadcrumb from "@components/common/breadcrumb/breadcrumb";
 import GallaryPageMain from "@components/gallary/gallary-page-main";
 import HeaderFour from "@layout/headers/headerFour";
 
-
 export default function Gallery() {
   return (
     <Wrapper>
-      <SEO pageTitle={'Gallery'} />
+      <SEO pageTitle={"Gallery"} />
       <HeaderFour />
       <Breadcrumb title="Gallery" subTitle="Gallery" />
       <GallaryPageMain />
-      <HomeNewsletter />
-      <Footer/>
+      <Footer />
     </Wrapper>
-  )
+  );
 }

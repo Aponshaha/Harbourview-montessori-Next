@@ -1,4 +1,3 @@
-import HomeNewsletter from "@components/newsletter/home-newsletter";
 import ProgramDetailsArea from "@components/programs/program-details-page/program-details-area";
 import SEO from "@components/seo";
 import program_data from "@data/program-data";
@@ -14,7 +13,6 @@ export default function ProgramDetails() {
       <SEO pageTitle={"Program Details"} />
       <HeaderFour />
       <ProgramDetailsArea item={item} />
-      <HomeNewsletter />
       <Footer />
     </Wrapper>
   );

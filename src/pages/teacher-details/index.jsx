@@ -1,4 +1,3 @@
-import HomeNewsletter from "@components/newsletter/home-newsletter";
 import SEO from "@components/seo";
 import TeacherDetailsArea from "@components/teachers/teacher-details-page/teacher-details-area";
 import TeacherTimeTable from "@components/teachers/teacher-details-page/teacher-time-table";
@@ -15,8 +14,7 @@ export default function TeacherDetails() {
       <SEO pageTitle={"Teacher Details"} />
       <Header />
       <TeacherDetailsArea item={item} />
-      <TeacherTimeTable />
-      <HomeNewsletter />
+      {/* <TeacherTimeTable /> */}
       <Footer />
     </Wrapper>
   );
