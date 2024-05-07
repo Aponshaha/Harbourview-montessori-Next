@@ -145,7 +145,7 @@ const ProgramDetailsArea = ({ item }) => {
       {/* <ClassDetailsWidget item={item} /> */}
       <ClassDetailsBasic item={item} />
       {/* <ClassDetailsWidgetTwo item={item} /> */}
-      <LearningSchedule />
+      {/* <LearningSchedule /> */}
       <ProgramCat item={item} />
     </>
   );
